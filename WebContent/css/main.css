@@ -1,0 +1,198 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(150, 100, 0);
+}
+
+table {
+	width: 75%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+li a.valittu {
+	background-color: rgb(84, 56, 0);
+}
+
+li a:hover {
+	background-color: rgb(84, 56, 0);
+}
+
+body {
+	background-color: black;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	font-size: 12pt; font-family : Consolas;
+	padding: 10px;
+	background-color: rgb(84, 56, 0);
+	border: 0px;
+	color: white;
+	text-align: left;
+	font-family: Consolas;
+	font-family: Consolas;
+}
+
+td {
+	width: 16%;
+	font-family: Consolas;
+	font-size: 12pt;
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+tr {
+	background-color: white;
+}
+
+tr:hover {
+	background-color: rgb(166,166,166);
+}
+
+tr:nth-child(even) {
+	background-color: rgb(220,220,220);
+}
+
+tr:nth-child(even):hover {
+	background-color: rgb(166,166,166);
+}
+
+.haku {
+	width: 75%;
+	margin: 10px;
+	padding: 10px;
+}
+
+.hakukentta {
+	font-family: Consolas;
+	font-size: 14pt;
+	width: 50%;
+	padding: 5px;
+	border: 2px;
+	border-style: solid;
+	border-color: rgb(220,220,220);
+	border-radius: 8px 8px 8px 8px;
+}
+
+.hakukentta:focus {
+    outline: none;
+    border-color: rgb(150, 100, 0);
+}
+
+.haenappi {
+	font-family: Consolas;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 14pt;
+	display: inline-block;
+	cursor: pointer;
+	background-color: black;
+    border-style: solid;
+    border-color: rgb(220,220,220);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.haenappi:hover {
+	border-color: rgb(150, 100, 0);
+	background-color: white;
+	color: black;
+}
+
+.haenappi:focus {
+		outline: none;
+		border-color: rgb(150, 100, 0);
+}
+
+.tyhjaatilaa {
+	width: 100%;
+	margin: 76px;
+}
+
+.tekstiboksi {
+	margin: 5px;
+	font-family: Consolas;
+	padding: 5px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(166,166,166);
+	border-radius: 8px 8px 8px 8px;
+}
+
+.tekstiboksi:focus {
+    outline: none;
+    border-color: rgb(150, 100, 0);
+}
+
+.ilmo {
+	color: white;
+	font-family: Consolas;
+}
+
+.lisaa {
+	font-family: Consolas;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	font-size: 12pt;
+	display: inline-block;
+	cursor: pointer;
+	background-color: rgb(225,225,225);
+    border-style: solid;
+    border-color: rgb(220,220,220);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.lisaa:focus {
+	outline: none;
+	border-color: rgb(150, 100, 0);
+}
+
+.lisaa:hover {
+	color: white;
+	background-color: rgb(100,100,100);
+}
+
+.poista{
+	color: black;
+	text-decoration: underline;	
+}
+
+.poista:hover{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+.muuta a{
+	color: black;
+	text-decoration: underline;
+}
+
+.muuta a:hover{
+	color: orange;
+	text-decoration: underline;
+	cursor: pointer;
+}
